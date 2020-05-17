@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 16442098700,
+  "duration": 14385210000,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,9 +37,25 @@ formatter.match({
   "location": "AmazonAppAddItemsToCart.user_logged_into_Amazon_mobile_application()"
 });
 formatter.result({
-  "duration": 16962876000,
+  "duration": 14914637800,
   "status": "passed"
 });
 formatter.match({
   "location": "AmazonAppAddItemsToCart.user_Search_for_item_and_add_items_to_cart_and_purchase()"
+});
+formatter.result({
+  "duration": 53151363500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AmazonAppAddItemsToCart.compare_the_products_information_between_product_search_screen_and_checkout_screen()"
+});
+formatter.result({
+  "duration": 12700840700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 345057000,
+  "status": "passed"
+});
 });
